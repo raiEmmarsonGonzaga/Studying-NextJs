@@ -1,0 +1,41 @@
+.shape {
+  height: 10px;
+  width: 10px;
+  justify-items: center;
+  border-bottom: 30px solid black;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.backgroud{
+    background-color: maroon;
+    border: 3px solid gold;
+    display: flex;
+    height: 80px;
+    padding:5px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    margin: 16px;
+    
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+  .backgroud {
+    height: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    gap: 16px;
+  }
+}
