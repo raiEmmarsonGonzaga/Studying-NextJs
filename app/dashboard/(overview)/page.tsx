@@ -5,6 +5,9 @@ import { Suspense } from 'react';
 import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardSkeleton } from '@/app/ui/skeletons';
 import CardWrapper from '@/app/ui/dashboard/cards';
 import '@/app/dashboard/dashboard.css';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = { title: 'Dashboard | Acme Dashboard' };
  
 export default async function Page() {
 
